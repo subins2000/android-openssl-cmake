@@ -17,3 +17,5 @@ If your CMake file is at `app/src/main/cpp/CMakeLists.txt` and the `prefix` fold
 ```
 set(OPENSSL_ROOT_DIR ${CMAKE_CURRENT_LIST_DIR}/../../../../prefix/${CMAKE_ANDROID_ARCH_ABI})
 ```
+
+This is used in [Dots app](https://github.com/subins2000/Dots)
